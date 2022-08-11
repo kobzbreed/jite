@@ -1,0 +1,2759 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+
+body > div.one > h1{
+
+	margin: 55px;
+	margin-top:40px ;
+	margin-left: 400px;
+	font-size: 40px;
+	color: white;
+}
+
+
+
+body > div.one > img{
+	margin-top: -90px;
+	padding-bottom: 20px;
+	width: 50px;
+	height: 30px;
+	margin-left: 820px;
+	display: flex;
+
+}
+
+body > div.one{
+	background: blue;
+	margin-top: -31px;
+	padding-bottom: 15px;
+
+}
+
+body > div.one > p{
+	font-size: 20px;
+	color: white;
+	font-family: serif;
+}
+
+body > div.one > p > a{
+	color: red;
+}
+
+body > div.photo > a > img{
+	width: 50px;
+	height: 25px;
+	margin-bottom: -55px;
+	padding-top: 8px;
+}
+
+body > div.photo > header > ul{
+	/*display: flex;*/
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	display: block;
+	font-size: 20px;
+	margin-top: -44px;
+	padding-left: 716px;
+
+	}
+
+	body > div.photo > header > ul > li{
+		display: inline-block;
+		font-size: larger;
+		font-family: sans-serif;
+		cursor: pointer;
+	}
+
+	body > div.photo > header{
+		/*color: green;*/
+		margin-top: 43px;
+	}
+
+	body > div.photo > header > ul > li> a{
+		padding: 8px;
+		color: black;
+		text-decoration: none;
+
+	}
+
+.swiper{
+	width: 100%;
+	height: fit-content;
+}
+
+.swiper-slide img{
+	width: 100%;
+
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+	color: #fff;
+	font-family: swiper-icons;
+	font-size: var(--swiper-navigation-size);
+	font-variant: initial;
+	clickable: true;
+
+}
+
+.swiper .swiper-pagination-bullet-active{
+	background: #fff;
+}
+
+/*.swiper .swiper-slide, .text{
+	color: red;
+	position: relative;
+	margin-top: -2%;
+}
+*/
+
+body > div.ukt{
+	color: blue;
+    margin-top: -32px;
+    text-align: center;
+}
+
+body > div.ukt > h1{
+	margin-top: 201px;
+    position: absolute;
+    margin-left: 700px;
+    font-size: xxx-large;
+}
+
+body > div.ukt > p{
+    position: absolute;
+    margin-top: 261px;
+    font-size: 28px;
+    margin-left: 556px;
+    position: absolute;
+}
+
+.help{
+    margin: 20px;
+}
+ .par{
+    color: blue;
+    font-size: 40px;
+    margin-left: 15px;
+    font-weight: 20px;
+   }
+
+ .meal{
+ 	background: blue;
+ 	width: 18%;
+ 	height: 40%;
+ 	padding: 37px ;
+ 	word-spacing: 0px;
+ 	position: relative;
+ 	font-size: 20px;
+ 	color: white;
+ 	border-radius: 10px;
+ 	margin-right: 50%;
+ 	margin-top: -245px;
+ 	animation: drop 1s ease forwards;
+ }
+
+
+@keyframes drop{
+	0%{
+	opacity: 0;
+    transform: translateY(200px);
+   }
+
+    100% {
+    opacity: 1;
+    transform: translateY(0); opacity: 1;
+   }
+
+}
+
+ body > div.meal > img{
+ 	margin-top: -11%;
+ 	margin-bottom: 10%;
+ }
+
+ body > div.meal > p{
+ 	margin-top: 10%;
+ }
+
+ .state{
+ 	background: red;
+ 	width: 15%;
+ 	height: 40%;
+ 	padding: 64px ;
+ 	font-size: 20px;
+ 	color: white;
+ 	border-radius: 10px;
+ 	margin-right: 25%;
+ 	margin-top: -402px;
+ 	position: relative;
+ 	animation: drop 1s ease forwards;
+ }
+
+ body > div.state > img{
+ 	margin-top: -24%;
+ 	margin-bottom: 20%;
+ }
+
+ body > div.state > p{
+ 	margin-top: 10%;
+ }
+
+.hand{
+	background: green;
+ 	width: 15%;
+ 	height: 40%;
+ 	padding: 64px ;
+ 	font-size: 20px;
+ 	color: white;
+ 	border-radius: 10px;
+ 	margin-right: 0%;
+ 	margin-top: -414px;
+ 	position: relative;
+ 	animation: drop 1s ease forwards;
+}
+
+body > div.hand > img{
+	margin-top: -26%;
+	margin-bottom: 20%;
+
+}
+
+body > div.hand > p{
+	margin-top: 10%;
+}
+
+.container{
+	text-align: center;
+	margin: 5%;
+}
+
+.container > h1{
+	color: blue;
+}
+
+.container > h2{
+	margin: 1%;
+	font-size: xxx-large;
+}
+
+.flex-container > p{
+	font-size: 120%;
+	color: blue;
+}
+
+.relief{
+	background: #ecf3fa;
+	width: 17%;
+	border-radius: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+	margin-left: 10%;
+	animation: drop 1s ease forwards;
+
+}
+
+.relief > p{
+	font: inherit;
+	font-size: 118%;
+	margin-top: 10%;
+}
+
+.relief > img{
+	margin-top: -30% ;
+
+}
+
+.relief > div{
+	background: blue;
+	font-size: 5%;
+	width: 30%;
+	margin-right: 36%;
+	margin-top: 10%;
+}
+
+
+body > div.relief > h1{
+	text-align: center;
+}
+
+.relief > button{
+	background: blue;
+	width: 40%;
+	padding: 4%;
+	margin-left: 21%;
+	margin-top: 6%;
+	font-size: 100%;
+	border-radius: 10%;
+	border: hidden;
+}
+
+body > div.relief > button > a{
+	color: white;
+	width: 68%;
+	text-decoration: none;
+}
+
+.common{
+   background: #effcf7;
+	width: 17%;
+	border-radius: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+	margin-left: 40%;
+	margin-top: -51%;
+	animation: drop 1s ease forwards;
+}
+
+.common > img{
+  margin-top: -30%;
+}
+
+
+.common > div{
+	background: green;
+	font-size: 5%;
+	width: 30%;
+	margin-right: 36%;
+	margin-top: 10%;
+}
+
+.common > h1 {
+	text-align: center;
+}
+
+.common > p {
+	font: inherit;
+	font-size: 118%;
+	margin-top: 10%;
+}
+
+
+body > div.common > button{
+   background: blue;
+	width: 40%;
+	padding: 4%;
+	margin-left: 21%;
+	margin-top: 6%;
+	font-size: 100%;
+	border-radius: 10%;
+	border: hidden;
+}
+
+body > div.common > button > a{
+	color: white;
+	width: 68%;
+	text-decoration: none;
+}
+
+.sar{
+	background: #faf3f3;
+	width: 17%;
+	border-radius: 2%;
+	padding-left: 4%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	margin-left: 69%;
+	margin-top: -54%;
+	animation: drop 1s ease forwards;
+
+}
+
+.sar > img{
+	margin-top: -30%;
+}
+
+.sar > div{
+	background: red;
+	font-size: 5%;
+	width: 30%;
+	margin-right: 36%;
+	margin-top: 10%;
+}
+
+.sar > h1{
+	text-align: center;
+}
+
+.sar > p{
+	font: inherit;
+	font-size: 118%;
+	margin-top: 10%;
+}
+
+.sar > button{
+	background: blue;
+	width: 40%;
+	padding: 4%;
+	margin-left: 21%;
+	margin-top: 6%;
+	font-size: 100%;
+	border-radius: 10%;
+	border: hidden;
+}
+
+.sar > button > a{
+	color: white;
+	width: 68%;
+	text-decoration: none;
+}
+
+.easy > p{
+	text-align: center;
+	font-size: 179%;
+	font-weight: bold;
+	margin-top: 6%;
+}
+
+body > div.butt > button{
+	 background: blue;
+	width: 7%;
+	padding: 1%;
+	margin-left: 48%;
+	margin-top: 2%;
+	font-size: 86%;
+	border-radius: 4%;
+	border: hidden;
+}
+
+body > div.butt > button > a{
+	color: white;
+	width: 68%;
+	text-decoration: none;
+}
+
+.tax{
+   background: #ecf3fa;
+   margin-top: 7%;
+   margin-bottom: 7%;
+   padding: 4%;
+   padding-left: 8%;
+   margin-right: 42%;
+   animation: drop 1s ease forwards;
+}
+
+body > div.tax > h1{
+	color: blue;
+	margin-bottom: 5%;
+}
+
+
+body > div.tax > h2{
+	font-size: 300%;
+}
+
+body > div.tax > p{
+	margin-top: 3%;
+	font-size: 110%;
+}
+
+body > div.tax > button:nth-child(4){
+	 background: blue;
+	width: 16%;
+	padding: 1%;
+	margin-left: 20%;
+	margin-top: 4%;
+	font-size: 86%;
+	border-radius: 4%;
+	border: hidden;
+}
+
+body > div.tax > button:nth-child(4) > a{
+	color: white;
+	text-decoration: none;
+}
+
+body > div.tax > button:nth-child(5){
+	background: blue;
+	width: 16%;
+	padding: 1%;
+	margin-left: 14%;
+	margin-top: 4%;
+	font-size: 86%;
+	border-radius: 4%;
+	border: hidden;
+	animation: drop 1s ease forwards;
+}
+body > div.tax > button:nth-child(5) > a{
+	color: white;
+	text-decoration: none;
+}
+
+body > div:nth-child(21){
+	margin-left: 44%;
+	margin-top: -36%;
+	animation: drop 1s ease forwards;
+}
+
+body > div:nth-child(20) > img{
+	border-radius: 3%;
+}
+
+.share{
+	margin-top: 10%;
+	display: grid;
+
+}
+
+body > div.share > h1{
+	color: blue;
+}
+
+body > div.share > h2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: center;
+	font-size: 281%;
+}
+body > div.share > p{
+	font-size: 110%;
+	text-align: center;
+}
+
+.connect{
+	background: ghostwhite;
+	margin: 12%;
+	padding: 5%;
+	text-align: center;
+	width: 24%;
+	box-sizing: border-box;
+	margin-top: 5%;
+
+}
+
+.connect > img{
+margin-top: -27%;
+animation: drop 1s ease forwards;
+
+}
+
+.connect >h1{
+	animation: drop 1s ease forwards;
+}
+
+body > div.connect > p{
+	margin-top: 15%;
+	font-size: large;
+	text-align: left;
+	font-weight: lighter;
+	margin=margin-left: -18%;
+	animation: drop 1s ease forwards;
+}
+
+body > div.nut{
+	background: blue;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: -37%;
+	width: 24%;
+	padding: 5%;
+}
+
+body > div.nut > img{
+	margin-top: -27%;
+	animation: drop 1s ease forwards;
+}
+
+body > div.nut > h1{
+  animation: drop 1s ease forwards;
+}
+
+.nut > p{
+	margin-top: 15%;
+	font-size: large;
+	text-align: left;
+	font-weight: lighter;
+	margin-left: -18%;
+	animation: drop 1s ease forwards;
+
+}
+
+.rest{
+	background: ghostwhite;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: -27%;
+	width: 24%;
+	padding: 5%;
+	margin-right: 12%;
+
+}
+
+
+.rest > img{
+	margin-top: -72%;
+	animation: drop 1s ease forwards;
+}
+
+.rest >h1{
+	animation: drop 1s ease forwards;
+}
+
+.rest > p{
+	margin-top: 15%;
+	font-size: large;
+	text-align: left;
+	font-weight: lighter;
+	margin-left: -18%;
+	animation: drop 1s ease forwards;
+}
+
+.break{
+	background: ghostwhite;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: 4%;
+	width: 24%;
+	padding: 5%;
+	margin-left: 12%;
+
+}
+
+.break > img{
+	margin-top: -27%;
+	animation: drop 1s ease forwards;
+}
+
+.break >h1{
+	animation: drop 1s ease forwards;
+}
+
+.break > p{
+	margin-top: 15%;
+	font-size: large;
+	text-align: left;
+	font-weight: lighter;
+	margin-left: -18%;
+	animation: drop 1s ease forwards;
+
+}
+
+.care{
+	background: ghostwhite;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: -24%;
+	width: 24%;
+	padding: 5%;
+	padding-bottom: 1%;
+	/*padding-top: 0%;*/
+	margin-left: 38%;
+}
+
+.care > img{
+	margin-top: -27%;
+	animation: drop 1s ease forwards;
+}
+
+.care >h1{
+	animation: drop 1s ease forwards;
+}
+
+.care > p{
+	margin-top: 15%;
+	font-size: large;
+	text-align: left;
+	font-weight: lighter;
+	margin-left: -18%;
+	animation: drop 1s ease forwards;
+
+}
+
+body > div:nth-child(28){
+	box-sizing: border-box;
+	margin-top: -28%;
+	width: 29%;
+	margin-left: 64%;
+
+}
+
+
+.int{
+	text-align: center;
+	margin: 5%;
+
+}
+
+body > div.int > h1{
+	color: blue;
+}
+
+body > div.int > h2{
+	margin-top: 2%;
+	font-size: xxx-large;
+}
+
+body > div.picture > img{
+   width: 11%;
+	margin-left: 10%;
+	animation: drop 1s ease forwards;
+}
+
+	
+body > div.picture > h2{
+   margin-left: 11%;
+   animation: drop 1s ease forwards;
+}
+
+body > div.pic1 > img{
+    width: 11%;
+    margin-left: 23%;
+    margin-bottom: 51%;
+    margin-top: -10%;
+    animation: drop 1s ease forwards;
+}
+
+body > div.pic1 > h2{
+	margin-top: -51%;
+	margin-bottom: 5%;
+	margin-left: 25%;
+	animation: drop 1s ease forwards;
+}
+
+	body > div.nat > img{
+		width: 11%;
+		 margin-left: 37%;
+    margin-bottom: 14%;
+    margin-top: -15%;
+    animation: drop 1s ease forwards;
+}
+
+body > div.nat > h2{
+	margin-top: -14%;
+	margin-bottom: 5%;
+	margin-left: 39%;
+	animation: drop 1s ease forwards;
+}
+
+body > div.tor > img{
+	width: 11%;
+	margin-left: 50%;
+	margin-bottom: 20%;
+	margin-top: -20%;
+	animation: drop 1s ease forwards;
+}
+
+.tor > h2{
+	margin-top: -20%;
+	margin-bottom: 5%;
+	margin-left: 52%;
+	animation: drop 1s ease forwards;
+}
+
+.quake > img{
+   ; width: 11%;
+	margin-left: 63%;
+	margin-bottom: 20%;
+	margin-top: -25%;
+	animation: drop 1s ease forwards;
+}
+
+.quake > h2 {
+	margin-top: -20%;
+	margin-bottom: 5%;
+	margin-left: 64%;
+	animation: drop 1s ease forwards;
+}
+
+.fire > img{
+    width: 11%;
+	margin-left: 76%;
+	margin-bottom: 27%;
+	margin-top: -30%;
+	animation: drop 1s ease forwards;
+}
+
+.fire > h2{
+	margin-top: -27%;
+	margin-bottom: 5%;
+	margin-left: 78%;
+	animation: drop 1s ease forwards;
+}
+
+
+
+body > section{
+	background: #ecf3fa;
+	margin-top: -17%;
+}
+
+body > section > div.class1 > h1{
+	padding-top: 5%;
+	margin-left: 45%;
+	color: blue;
+	font-size: 208%;
+}
+
+body > section > div.class1 > h2{
+	margin-left: 40%;
+	font-size: xxx-large;
+}
+
+body > section > div.class1 > div{
+	margin-left: 49%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+body > section > div.class2{
+	margin-left: 21%;
+}
+
+body > section > div.class2 > img:nth-child(5){
+	margin-left: 10%;
+}
+
+body > section > div.star1{
+	margin-left: 51%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+body > section > div.class3{
+	margin-left: 21%;
+}
+
+body > section > div.class3 > img:nth-child(5){
+	margin-left: 10%;
+}
+
+body > section > div:nth-child(5) > img{
+	margin-left: 53%;
+	margin-top: 4%;
+}
+
+body > section > div.class4{
+	margin-left: 21%;
+	margin-top: 2%;
+}
+
+body > section > div.class4 > img:nth-child(5){
+	margin-left: 32%;
+}
+
+body > section.foot{
+	background: black; 
+	margin-top: 5%;
+	color: white;
+}
+
+body > section.foot > div.cont{
+	text-decoration: none;
+	color: white;
+	margin-left: 48%;
+	padding-top: 6%;
+}
+body > section.foot > div.cont > a{
+	color: white;
+	text-decoration: none;
+}
+
+body > section.foot > div.cont > p{
+	margin-top: 1%;
+}
+
+
+body > section.foot > div.header{
+	display: block;
+	margin-left: 28%;
+	margin-top: 3%;
+}
+
+body > section.foot > div.header > ul{
+	display: flex;
+	margin-right: 48%;
+}
+
+body > section.foot > div.header > ul > li > a{
+	color: white;
+	text-decoration: none;
+}
+
+body > section.foot > div.header > ul > li{
+	text-decoration: none;
+	display: block;
+}
+
+body > section.foot > p{
+	margin-left: 15%;
+	padding-bottom: 3%;
+}
+
+body > section.foot > img{
+	margin-left: 72%;
+	margin-top: -41%;
+	margin-bottom: 5%;
+}
+
+body > section.foot > div.solict{
+	margin-left: 14%;
+	display: flex;
+	margin-right: 24%;
+}
+
+body > section.foot > div.solict > a{
+	text-decoration: none;
+	color: #b2bebf;
+
+}
+
+body > section.foot > div.aus{
+	margin-left: 6%;
+	padding-bottom: 2%;
+	margin-top: 1%;
+	font-size: 120%;
+	color: #b2bebf;
+}
+
+body > div.mission{
+	margin-left: 12%;
+}
+
+body > div.mission > h1{
+	font-size: xxx-large;
+	color: blue;
+	margin-top: 8%;
+}
+
+body > div.mission > p{
+	margin-top: 3%;
+	font-size: large;
+}
+
+body > div.mission > img{
+	margin-left: 43%;
+	margin-top: -25%;
+	border-radius: 1%;
+}
+
+body > div.com > img{
+	width: 50%;
+	margin-left: 4%;
+	box-sizing: border-box;
+}
+
+body > div.com > h1{
+	font-size: xxx-large;
+	margin-left: 51%;
+	margin-top: -35%;
+}
+
+body > div.com > p{
+	margin-left: 51%;
+	margin-top: 3%;
+	padding-bottom: 15%;
+	font-size: large;
+}
+
+body > div.chu{
+background: ghostwhite;
+width: 25%;
+margin-left: 9%;
+border-radius: 2%;
+padding-bottom: 9%;
+}
+
+body > div.chu > img{
+	width: 99%;
+	border-radius: 2%;
+}
+
+	body > div.chu > h2{
+		margin-left: 26%;
+		margin-top: 3%;
+	}
+
+	body > div.chu > p{
+		text-align: center;
+		margin-left: -1%;
+		margin-top: 3%;
+		font-size: large;
+		padding-bottom: 37%;
+	}
+
+	body > div.mob{
+	 background: ghostwhite;
+     width: 25%;
+      margin-left: 36%;
+      padding-bottom: 10%;
+      margin-top: -48%;
+      border-radius: 2%;
+      border-width: 50%;
+	}
+
+	body > div.mob > img{
+		width: 99%;
+	border-radius: 2%;
+	}
+
+	body > div.mob > h2{
+		margin-left: 26%;
+		margin-top: 3%;
+	}
+	
+	body > div.mob > p{
+		text-align: center;
+		margin-left: -1%;
+		margin-top: 3%;
+		font-size: large;
+		/*padding-bottom: %;*/
+	}
+
+	body > div.volu{
+		background: ghostwhite;
+     width: 25%;
+      margin-left: 63%;
+      padding-bottom: 10%;
+      margin-top: -42%;
+      border-radius: 2%;
+      border-width: 50%;
+	}
+
+	body > div.volu > img{
+		width: 99%;
+	border-radius: 2%;
+	}
+
+	body > div.volu > h2{
+		margin-left: 26%;
+		margin-top: 3%;
+	}
+
+	body > div.volu > p{
+		text-align: center;
+		margin-left: -1%;
+		margin-top: 3%;
+		font-size: large;
+	}
+
+	body > div.lary{
+		margin-top: 10%;
+		margin-left: 10%;
+	}
+
+	body > div.lary > h1{
+		font-size: xxx-large;
+	}
+
+	body > div.lary > div{
+		margin-top: 5%;
+		font-size: large;
+	}
+
+	body > div.lary > p{
+		font-size: larger;
+	}
+
+	body > div.lary > img{
+		margin-left: 46%;
+		margin-top: -49%;
+		padding-bottom: 5%;
+		border-radius: 2%;
+	}
+body > div.content{
+	margin-left: 10%;
+	margin-top: 7%;
+
+}
+
+body > div.content > img{
+	margin-left: 41%;
+	margin-top: -21%;
+	border-radius: 2%;
+	margin-bottom: 5%;
+}
+
+body > div.content > p{
+	margin-top: 6%;
+	font-size: larger;
+}
+
+body > div.content > h1{
+	font-size: xxx-large;
+	margin-bottom: -4%;
+}
+
+
+body > div.but{
+	margin-left: 16%;
+	margin-top: 3%;
+	border-radius: 4%;
+	width: 7%;
+}
+
+.but > button{
+background: red;	
+width: 87%;
+	text-decoration: none;
+	padding: 8%;
+	border-width: thin;
+	border-radius: 7%;
+
+}
+	
+.but > button > a{
+	text-decoration: none;
+	color: white;
+}
+
+.jir{
+margin-left: 15%;
+}
+
+body > div.jir > h1{
+	font-size: xxx-large;
+	margin-top: 11%;
+	padding-bottom: 2%;
+}
+
+body > div.jir > p{
+	font-size: larger;
+}
+
+body > div.copy{
+	margin-left: 53%;
+	margin-top: -22%;
+}
+
+body > div.copy > img{
+	border-radius: 3;
+}
+
+
+
+body > div.solid{
+	margin-left: 7%;
+	border-radius: 3%;
+	width: 22%;
+	margin-top: 4%;
+	background: ghostwhite;
+}
+
+body > div.solid > img{
+	margin-left: 39%;
+	margin-top: 14%;
+}
+
+body > div.solid > h2{
+	margin-left: 37%;
+	margin-top: 8%;
+	color: blue;
+}
+
+body > div.solid > p{
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 6%;
+	font-size: large;
+	margin-left: -9%;
+	padding-bottom: 19%;
+}
+
+body > div.ico{
+	margin-left: 30%;
+	border-radius: 3%;
+	width: 22%;
+	margin-top: -19%;
+	background: ghostwhite;
+}
+
+body > div.ico > img{
+	margin-left: 39%;
+	margin-top: 14%;
+}
+
+body > div.ico > h2{
+	margin-left: 22%;
+	margin-top: 8%;
+	color: green;
+}
+
+.ico >p{
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 6%;
+	font-size: large;
+	margin-left: -9%;
+	padding-bottom: 19%;
+}
+
+body > div.ic3{
+	margin-left: 53%;
+	border-radius: 3%;
+	width: 22%;
+	margin-top: -19%;
+	background: ghostwhite;
+}
+
+body > div.ic3 > img{
+	margin-left: 39%;
+	margin-top: 14%;
+}
+
+.ic3 >h2{
+	margin-left: 22%;
+	margin-top: 8%;
+	color: red;
+}
+
+.ic3 >p{
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 6%;
+	font-size: large;
+	margin-left: -9%;
+	padding-bottom: 19%;
+}
+
+body > div.loc{
+	margin-left: 76%;
+	border-radius: 3%;
+	width: 22%;
+	margin-top: -19%;
+	background: ghostwhite;
+}
+
+.loc >img{
+	margin-left: 39%;
+	margin-top: 14%;
+}
+
+.loc >h2{
+	margin-left: 22%;
+	margin-top: 8%;
+	color: blue;
+}
+
+.loc >p{
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 6%;
+	font-size: large;
+	margin-left: -9%;
+	padding-bottom: 12%;
+}
+
+body > div.cor{
+	margin-top: 13%;
+	margin-left: 8%;
+}
+
+body > div.cor > h1{
+	font-size: xxx-large;
+}
+
+body > div.cor > p{
+	font-size: larger;
+}
+
+body > div.twen{
+	width: 72%;
+	margin-left: 13%;
+	border-radius: 1%;
+	margin-bottom: 6%;
+
+}
+
+body > div.twen > img{
+	border-radius: 1%;
+	width: 100%;
+}
+
+
+body > div.high{
+	margin-left: 40%;
+	font-size: larger;
+	margin-top: 6%;
+}
+
+body > div.mercy{
+	margin-left: 43%;
+	background: aliceblue;
+	margin-top: -26%;
+}
+
+body > div.mercy > img{
+		border-radius: 4%;
+}
+
+body > div.cor > div{
+  margin-top: 3%;
+}
+
+body > div.cor > div > button > a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+
+body > div.cor > div > button{
+	background: blue;
+	width: 10%;
+	border-width: thin;
+	padding: 1%;
+	border-radius: 6%;
+}
+
+body > div.part{
+	margin-left: 8%;
+	margin-top: 9%;
+}
+
+body > div.part > img{
+	border-radius: 3%;
+}
+
+body > div.partc{
+	margin-left: 45%;
+	margin-top: -24%;
+	padding-bottom: 26%;
+}
+
+body > div.partc > h1{
+	font-size: xxx-large;
+}
+
+body > div.partc > p{
+	margin-top: 2%;
+	font-size: large;
+}
+
+body > div.partc > button{
+	background: blue;
+	width: 14%;
+	margin-top: 3%;
+	border-width: thin;
+	padding: 1%;
+	border-radius: 6%;
+}
+
+body > div.partc > button > a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+
+body > div.blog{
+	margin-top: 0%;
+	margin-left: 40%;
+}
+
+body > div.blog > button{
+	background: blue;
+	width: 15%;
+	border-width: thin;
+	padding: 1%;
+	border-radius: 6%;
+}
+
+body > div.blog > button > a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+	margin-left: 5%;
+}
+
+body > div.vido{
+	margin-top: -40px;
+	margin-left: 50%;
+}
+
+.vido > button{
+	background: blue;
+	width: 18%;
+	border-width: thin;
+	padding: 1%;
+	border-radius: 6%;
+}
+
+.vido > button >a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+	margin-left: 2%;
+}
+
+body > div.per{
+	margin-left: 10%;
+	margin-top: 4%;
+}
+
+body > div.per > h2{
+	margin-top: 2%;
+	font-size: xxx-large;
+}
+
+body > div.per > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.per > button:nth-child(4){
+	margin-top: 2%;
+	background: blue;
+	border-width: thin;
+	border-radius: 3px;
+}
+
+body > div.per > button:nth-child(4) > a{
+	color: white;
+   text-decoration: none;
+   font-size: medium;
+   margin-left: 6px;
+}
+
+body > div.per > button:nth-child(5){
+	margin-left: 1%;
+	background: blue;
+	border-width: thin;
+	border-radius: 3px;
+}
+
+body > div.per > button:nth-child(5) > a{
+   color: white;
+   text-decoration: none;
+   font-size: medium;
+   margin-left: 6px;
+}
+
+body > div.per > div.image{
+	margin-left: 43%;
+	margin-top: -22%;
+}
+
+body > div.per > div.image > img{
+	border-radius: 3%;
+}
+
+body > div.per > button:nth-child(4) > i{
+	color: white;
+}
+
+body > div.per > button:nth-child(5) > i{
+	color: white;
+}
+
+body > div.per > div.commi > h2{
+	margin-top: 5%;
+	font-size: xxx-large;
+	margin-left: 20%;
+}
+
+body > div.per > div.commi > p{
+	margin-top: 1%;
+	margin-left: 11%;
+}
+
+body > div.con{
+	margin-left: 15%;
+}
+
+body > div.con > h1{
+	color: blue;
+}
+
+body > div.con > h2{
+	margin-top: 1%;
+	font-size: xxx-large;
+}
+
+body > div.con > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.con > p:nth-child(4){
+	color: blue;
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.hp{
+	margin-left: 55%;
+	margin-top: -21%;
+	padding-bottom: 20%;
+}
+
+body > div.hp > h1{
+	color: blue;
+}
+
+body > div.hp > span{
+	margin-top: 2%;
+}
+
+body > div.hp > p{
+	margin-top: 5%;
+}
+
+body > div.hp > p:nth-child(3){
+	margin-top: 2%;
+}
+
+body > div.reach{
+	background: #ecf3fa;
+	padding: 20%;
+	margin-left: -5%;
+	padding-bottom: 5%;
+	margin-bottom: -5%;
+}
+
+body > div.reach > h1{
+	color: blue;
+	margin-top: -23%;
+}
+
+body > div.reach > h2{
+	margin-top: 2%;
+	margin-bottom: 4%;
+	font-size: xxx-large;
+}
+
+body > div.reach > input:nth-child(3){
+	width: 25%;
+	padding: 1%;
+	border-width: inherit;
+	background: lightskyblue;
+}
+
+body > div.reach > input[type=email]:nth-child(4){
+	width: 25%;
+	padding: 1%;
+	border-width: inherit;
+	background: lightskyblue;
+}
+
+body > div.reach > input:nth-child(5){
+	width: 25%;
+	padding: 1%;
+	border-width: inherit;
+	background: lightskyblue;
+}
+
+body > div.reach > input:nth-child(7){
+	margin-top: 2%;
+	width: 68%;
+	padding: 7%;
+	border-width: inherit;
+	background: lightskyblue;
+}
+
+body > div.reach > button{
+	margin-top: 3%;
+	width: 9%;
+	background: blue;
+	padding: 9px;
+	border-radius: 5px;
+	border-width: inherit;
+	color: white;
+}
+
+body > div.page{
+	margin-top: 4%;
+	margin-left: 15%;
+}
+
+body > div.page > input[type=email]:nth-child(2){
+	margin-top: 2%;
+	width: 37%;
+	border-width: thin;
+padding: 12px;	
+}
+
+body > div.page > input[type=password]:nth-child(4){
+	margin-top: 2%;
+	width: 37%;
+	border-width: thin;
+padding: 12px;
+}
+
+body > div.page > button{
+	margin-top: 3%;
+	width: 6%;
+	background: blue;
+	padding: 9px;
+	border-radius: 5px;
+	border-width: inherit;
+	color: white;
+}
+
+#favourite{
+	margin-left: 11px;
+}
+
+body > div.page > p{
+	margin-top: 13px;
+}
+
+body > div.page > p > a{
+	text-decoration: none;
+}
+
+body > div.page > a{
+	text-decoration: none;
+}
+
+body > div.sol{
+	margin-left: 10%;
+	margin-top: 67px;
+
+}
+
+body > div.sol > h1{
+	color: blue;
+}
+
+body > div.sol > h2{
+	margin-top: 1%;
+	font-size: xxx-large;
+}
+
+body > div.sol > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.pol{
+	margin-left: 11%;
+	margin-top: 3%;
+}
+
+body > div.pol > h1{
+	color: blue;
+}
+
+body > div.pol > h2{
+	font-size: xxx-large;
+	margin-top: 1%;
+}
+
+body > div.pol > h3{
+	margin-top: 21px;
+}
+
+body > div.pol > p{
+	font-size: large;
+	margin-top: 1%;
+	word-spacing: 2px;
+}
+
+body > div.pol > div.into{
+	margin-top: 1%;
+}
+
+body > div.pol > div.into > h2{
+	margin-top: 1%;
+}
+
+body > div.pol > div.into > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.pol > div.rece{
+	margin-top: 1%;
+}
+
+body > div.pol > div.rece > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.pol > div.why{
+	margin-top: 1%;
+}
+
+body > div.pol > div.why > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.pol > div.stor{
+	margin-top: 1%;
+}
+
+body > div.pol > div.stor > p{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.pol > div.has{
+		margin-top: 1%;
+}
+
+body > div.pol > div.has >p{
+	margin-top: -18px;
+	font-size: large;
+}
+
+body > div.pol > div.right{
+	margin-top: 1%;
+}
+
+body > div.pol > div.right > p{
+	margin-top: -18px;
+	font-size: large;
+}
+
+body > div.pol > div.cook{
+    margin-top: 1%;
+}
+
+body > div.pol > div.cook >p{
+   margin-top: -18px;
+	font-size: large;
+}
+
+body > div.pol > div.li{
+    margin-top: 1%;
+}
+
+body > div.pol > div.li >p{
+    margin-top: 10px;
+	font-size: large;
+}
+
+
+body > div.pol > div.datap{
+    margin-top: 1%;
+}
+
+body > div.pol > div.datap >p{
+     margin-top: -14px;
+	font-size: large;
+}
+
+body > div.pol > div.li > p > a{
+	text-decoration: none;
+}
+
+body > div.doc{
+	margin-left: 10%;
+}
+
+body > div.doc > h1{
+	color: blue;
+}
+
+body > div.doc > h2{
+	font-size: xxx-large;
+	margin-top: -2%;
+}
+
+body > div.doc > h4{
+	font-size: large;
+	margin-top: -21px;
+}
+
+body > div.doc > p{
+	font-size: large;
+}
+
+body > div.fina{
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+body > div.fina > h1{
+	font-size: xxx-large;
+	margin-bottom: 16px;
+}
+
+body > div.fina > a:nth-child(3){
+	font-size: x-large;
+	color: blue;
+	text-decoration: none;
+}
+
+body > div.fina > a:nth-child(6){
+	font-size: x-large;
+	color: blue;
+	text-decoration: none;
+}
+
+body > div.fina > a:nth-child(9){
+	font-size: x-large;
+	color: blue;
+	text-decoration: none;
+}
+
+body > div.fina > input[type=checkbox]:nth-child(5){
+	margin-top: 1%;
+}
+
+body > div.fina > input[type=checkbox]:nth-child(8){
+    margin-top: 1%;
+}
+
+body > div.fina > h4{
+	margin-top: 1%;
+	font-size: large;
+}
+
+body > div.fina > p{
+	margin-top: -1%;
+	font-size: large;
+}
+
+body > div.fina > p > a{
+	text-decoration: none;
+}
+
+body > div.boar{
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+body > div.boar > h1{
+	color: blue;
+}
+
+body > div.boar > h2{
+	font-size: xxx-large;
+	margin-top: 10px;
+}
+
+body > div.squa{
+	margin-left: 10%;
+	background: blue;
+	width: 21%;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+
+body > div.squa > h2{
+	color: white;
+}
+
+body > div.squa > div{
+	color: white;
+	font-size: large;
+}
+
+body > div.squa > div:nth-child(2){
+	margin-top: 13px;
+}
+
+body > div.jane{
+	margin-left: 36%;
+	background: blue;
+	width: 21%;
+	padding: 2%;
+	margin-top: -207px;
+}
+
+body > div.jane > h2{
+	color: white;
+}
+
+body > div.jane > div:nth-child(2){
+	margin-top: 13px;
+}
+
+body > div.jane > div{
+	color: white;
+	font-size: large;
+}
+
+body > div.jim{
+	margin-left: 62%;
+	background: blue;
+	width: 21%;
+	padding: 2%;
+	margin-top: -207px;
+}
+
+body > div.jim > h2{
+	color: white;
+}
+
+body > div.jim > div{
+	color: white;
+	font-size: large;
+}
+
+body > div.jim > div:nth-child(2){
+    margin-top: 13px;
+}
+
+body > div.rich{
+	background: blue;
+	width: 21%;
+	padding: 2%;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+body > div.rich > h2{
+	color: white;
+	}
+
+	body > div.rich > div{
+		color: white;
+	font-size: large;
+	}
+
+
+	body > div.rich > div:nth-child(2){
+        margin-top: 13px;
+	}
+
+	body > div.rev{
+	background: blue;
+	width: 21%;
+	padding: 2%;
+	margin-left: 36%;
+	margin-top: -208px;
+	}
+
+	body > div.rev > h2{
+		color: white;
+	}
+
+	body > div.rev > div{
+		color: white;
+	font-size: large;
+	}
+
+	body > div.rev > div:nth-child(2){
+       margin-top: 13px;
+	}
+
+	body > div.key{
+		margin-top: 2%;
+		margin-left: 10%;
+	}
+
+	body > div.key > h1{
+		color: blue;
+	}
+
+	body > div.key > h2{
+		font-size: xxx-large;
+		margin-top: 5px;
+	}
+
+	body > div.lar{
+		margin-top: 52px;
+		margin-left: 10%;
+	}
+
+	body > div.lar > img{
+      width: 40% ;
+	}
+
+	body > div.lar > h3{
+		margin-top: 19px;
+		font-size: larger;
+	}
+
+	body > div.lar > p{
+		margin-top: 1%;
+	}
+
+	body > div.ann{
+		margin-top: -242px;
+		margin-left: 49%;
+	}
+
+	body > div.ann > img{
+		width: 70%;
+		margin-top: -50%;
+	}
+
+	body > div.ann > h3{
+		margin-top: 19px;
+		font-size: larger;
+	}
+
+	body > div.ann > p{
+		margin-top: 1%;
+	}
+
+	body > div.will{
+		margin-left: 10%;
+		margin-top: 4%;
+	}
+
+	body > div.will > h3{
+		font-size: larger;
+		margin-top: 19px;
+	}
+
+	body > div.will > p{
+		margin-top: 1%;
+	}
+
+	body > div.thomas{
+		margin-left: 37%;
+		margin-top: -30%;
+	}
+
+	body > div.thomas > h3{
+		font-size: larger;
+		margin-top: 19px;
+	}
+
+	body > div.thomas >p{
+		margin-top: 1%;
+	}
+
+	body > div.lisa{
+		margin-left: 64%;
+		margin-top: -31%;
+	}
+
+	body > div.lisa > h3{
+       font-size: larger;
+		margin-top: 19px;
+	}
+
+	body > div.lisa >p{
+       margin-top: 1%
+	}
+
+	body > div.step{
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+
+	body > div.step > h3{
+      font-size: larger;
+		margin-top: 19px;
+	}
+
+	body > div.step >p{
+      margin-top: 1%
+	}
+
+	
+	body > div.megan{
+		margin-left: 37%;
+		margin-top: -30%;
+	}
+
+	body > div.megan > h3{
+     font-size: larger;
+		margin-top: 19px;
+	}
+
+	body > div.megan >p{
+    margin-top: 1%
+	}
+
+	body > div.att{
+		background: #f2f2f2;
+		padding: 4%;
+	}
+
+	body > div.att > h2{
+		margin-left: 40%;
+		margin-top: -3%;
+	}
+
+	body > div.att > div{
+		margin-top: 3%;
+	}
+
+	body > div.att > input[type=text]:nth-child(3){
+		margin-top: 2%;
+		width: 36%;
+		padding: 12px;
+		border: none;
+	}
+
+	body > div.att > input[type=number]:nth-child(5){
+		margin-top: 14px;
+		width: 36%;
+		padding: 12px;
+		border: none;
+	}
+
+ body > div.att > input[type=submit]:nth-child(7){
+      margin-top: 14px;
+		width: 38%;
+		padding: 12px;
+		border: none;
+		background: blue;
+ }
+
+body > div.contt{
+	margin-left: 47%;
+	margin-top: -16%;
+}
+
+body > div.contt > img{
+	width: 15%;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+
+
+body > div.contt > input[type=number]{
+	margin-top: 16px;
+	margin-left: -125px;
+	width: 87%;
+	padding: 12px;
+	border: none;
+
+}
+
+body > div.contt > p{
+	margin-top: -17px;
+}
+
+body > div.tax > div > button:nth-child(1){
+	margin-top: 5%;
+	background: blue;
+	border: none;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+body > div.tax > div > button:nth-child(1) > i{
+	color: white;
+	font-size: 17px;
+}
+
+body > div.tax > div > button:nth-child(1) > a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: 2px;
+}
+
+body > div.tax > div > button:nth-child(2){
+	margin-top: 5%;
+	background: blue;
+	border: none;
+	padding: 12px;
+	border-radius: 5px;
+	margin-left: 13%;
+}
+
+body > div.tax > div > button:nth-child(2) > i{
+	color: white;
+	font-size: 17px;
+}
+
+body > div.tax > div > button:nth-child(2) > a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: 2px;
+}
+
+body > div.mum{
+ margin-top: -1%;
+ background: #55ca9d;
+}
+
+body > div.mum > h1{
+	margin-left: 2%;
+	padding: 9%;
+	color: white;
+	padding-top: 5%;
+	text-align: center;
+	font-size: xxx-large;
+}
+
+body > div.dad{
+	margin-top: 8%;
+	margin-left: 12%;
+}
+
+body > div.dad > p{
+	margin-top: 2%;
+	font-size: large;
+}
+
+body > div.dad > h3{
+	font-size: larger;
+}
+
+body > div.apic{
+	margin-left: 50%;
+	margin-top: -17%;
+
+}
+
+body > div.apic > img{
+	border-radius: 7px;
+	width: 64%;
+}
+
+body > div.div{
+	margin-top: 9%;
+}
+
+body > div.div > p:nth-child(1){
+	background: ghostwhite;
+	padding: 17%;
+	width: 3%;
+	margin-left: 0%;
+}
+
+body > div.div > img{
+	margin-left: 17%;
+	margin-top: -40%;
+	margin-bottom: 3%;
+	width: 32%;
+	border-radius: 15px;
+}
+
+body > div.div > h3{
+	margin-top: 3%;
+}
+
+body > div.div > h3{
+	margin-left: 56%;
+	margin-top: -27%;
+	font-size: larger;
+}
+
+body > div.div > p:nth-child(4){
+	margin-left: 56%;
+	margin-top: 2%;
+	font-size: larger;
+}
+
+body > div.div > h4{
+	margin-left: 56%;
+	margin-top: 2%;
+	font-size: larger;
+}
+
+body > div.week{
+	margin-top: 29%;
+	margin-left: 15%;
+}
+
+body > div.week > img{
+	margin-left: 47%;
+	margin-top: -22%;
+	border-radius: 7px;
+}
+
+body > div.week > h3{
+	font-size: larger;
+}
+
+body > div.week > p{
+	margin-top: 2%;
+	font-size: larger;
+}
+
+/*body > div.photo{
+	position:fixed;
+	bottom: 30px;
+	top: 0px;
+	background: greenyellow;
+
+}*/
+body > div.blog > button > i{
+	color: white;
+	margin-left: -17%;
+}
+
+body > div.vido > button > i{
+	color: white;
+	margin-left: -5%;
+}
+
+body > div.play{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+body > div.play > embed{
+	width: 45%;
+	height: 316px;
+}
+
+body > div.image{
+	margin-left: 45%;
+	margin-top: -315px;
+}
+
+body > div.image > img{
+	border-radius: 15px;
+}
+
+body > div.commi{
+	margin-left: 25%;
+	margin-top: 4%;
+}
+
+body > div.commi > h2{
+	font-size: xxx-large;
+}
+
+body > div.commi > p{
+	text-align: center;
+	margin-left: -36%;
+	margin-top: 22px;
+	font-size: larger;
+}
+
+body > div.tim{
+   margin-top: 5%;
+	margin-left: 20%;
+	background: whitesmoke;
+	padding: 53px;
+	width: 17%;
+}
+
+body > div.tim > span{
+	margin-left: 23%;
+}
+
+body > div.tim > p{
+	margin-top: 4px;
+	text-align: center;
+	font-size: large;
+}
+
+body > div.tim > div{
+	margin-top: 2%;
+}
+
+body > div.tim > div > button:nth-child(1){
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: 10px;
+    margin-left: 44px;
+    border-radius: 5px;
+}
+
+body > div.tim > div > button:nth-child(1) > i{
+	color: white;
+	font-size: large;
+    margin-left: 1px;
+}
+
+body > div.tim > div > button:nth-child(1) > a{
+	color: white;
+	font-size: 16px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+body > div.tim > div > button:nth-child(3){
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: 28px;
+    margin-left: 44px;
+    border-radius: 5px;
+}
+
+body > div.tim > div > button:nth-child(3) > a{
+	color: white;
+	font-size: 16px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+body > div.tim > div > button:nth-child(3) > i{
+	color: white;
+	font-size: large;
+    margin-left: 1px;
+}
+
+body > div.recu{
+	margin-top: -23%;
+	margin-left: 46%;
+	background: whitesmoke;
+	padding: 67px;
+	width: 17%;
+}
+
+body > div.recu > h1{
+	margin-left: -9px;
+}
+
+body > div.recu > span{
+	margin-left: 23%;
+}
+
+body > div.recu > p{
+	margin-top: 4px;
+	text-align: center;
+	font-size: large;
+}
+
+body > div.recu > div{
+	margin-top: 2%;
+}
+
+body > div.recu > div > button:nth-child(1){
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: 10px;
+    margin-left: 44px;
+    border-radius: 5px;
+}
+
+body > div.recu > div > button:nth-child(1) > i{
+	color: white;
+	font-size: large;
+    margin-left: 1px;
+}
+
+body > div.recu > div > button:nth-child(1) > a{
+   color: white;
+	font-size: 16px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+body > div.recu > div > button:nth-child(3){
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: 27px;
+    margin-left: 44px;
+    border-radius: 5px;
+}
+
+body > div.recu > div > button:nth-child(3) > i{
+	color: white;
+	font-size: large;
+    margin-left: 1px;
+}
+
+body > div.recu > div > button:nth-child(3) > a{
+	color: white;
+	font-size: 16px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+body > div.newdiv{
+	margin-top: 5%;
+	margin-left: 11%;
+}
+
+body > div.newdiv > img{
+	width: 81%;
+	border-radius: 14px;
+}
+
+body > div.smal{
+	background: blue;
+	width: 19%;
+	margin-left: 21%;
+	margin-top: -100px;
+	position: relative;
+	border-radius: 5px;
+}
+
+body > div.smal > img{
+	margin-left: 78px;
+}
+
+body > div.smal > h2{
+	margin-left: 71px;
+    margin-top: 32px;
+    color: white;
+    font-size: 32px;
+}
+
+body > div.smal > p{
+	    margin-left: -50px;
+    margin-top: 22px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 38px;
+}
+
+body > div.sm{
+	background: blue;
+	width: 19%;
+	margin-left: 40%;
+	position: relative;
+	margin-top: -302px;
+}
+
+body > div.sm > img{
+	margin-left: 78px;
+}
+
+body > div.sm > h2{
+	margin-left: 71px;
+    margin-top: 32px;
+    color: white;
+    font-size: 32px;
+}
+
+body > div.sm > p{
+	 margin-left: -77px;
+    margin-top: 22px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 69px;
+}
+
+body > div.avg{
+	background: blue;
+	width: 19%;
+	margin-left: 59%;
+	margin-top: -306px;
+	border-radius: 6px;
+	position: relative;
+}
+
+body > div.avg > img{
+	margin-left: 78px;
+}
+
+body > div.avg >h2{
+	margin-left: 71px;
+    margin-top: 32px;
+    color: white;
+    font-size: 32px;
+}
+
+body > div.avg >p{
+	margin-left: -77px;
+    margin-top: 22px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 69px;
+}
+
+body > div.spec{
+	margin-top: 6%;
+	margin-left: 24%;
+}
+
+body > div.spec > h1{
+	font-size: xxx-large;
+}
+
+body > div.spec > p{
+	margin-top: 2%;
+    margin-left: -396px;
+    font-size: large;
+    text-align: center;
+}
+
+body > div.dis{
+    padding-left: 81px;
+    padding-bottom: 70px;
+    background: #ecf3fa;
+    width: 17%;
+    margin-left: 15%;
+    margin-top: 107px;
+}
+
+body > div.dis > img{
+	margin-top: -74px;
+}
+
+body > div.dis > h2{
+	margin-top: 25px;
+	color: blue;
+	font-size: 31px;
+}
+
+body > div.dis > h4{
+	color: blue;
+	font-size: 41px;
+	margin-left: 47px;
+}
+
+body > div.dis > p{
+	margin-top: 20px;
+	font-size: large;
+	text-align: center;
+	margin-left: -106px;
+}
+
+body > div.mo{
+	padding-left: 81px;
+    padding-bottom: 111px;
+    background: #ecf3fa;
+    width: 17%;
+    margin-left: 39%;
+    margin-top: -405px;
+}
+
+body > div.mo > img{
+	margin-top: -74px;
+}
+
+body > div.mo > h2{
+	margin-top: 25px;
+	color: red;
+	font-size: 31px;
+}
+
+body > div.mo > h4{
+	color: red;
+	font-size: 41px;
+	margin-left: 47px;
+}
+
+body > div.mo > p{
+		margin-top: 20px;
+	font-size: large;
+	text-align: center;
+	margin-left: -106px;
+}
+
+body > div.comy{
+	padding-left: 81px;
+    padding-bottom: 94px;
+    background: #ecf3fa;
+    width: 17%;
+    margin-left: 63%;
+    margin-top: -405px;
+}
+
+body > div.comy > img{
+	margin-top: -74px;
+}
+
+body > div.comy > h2{
+	margin-top: 25px;
+	color: green;
+	font-size: 31px;
+	margin-left: -55px;
+}
+
+body > div.comy > h4{
+	font-size: 41px;
+	margin-left: 47px;
+	color: green;
+}
+
+body > div.comy > p{
+	margin-top: 20px;
+	font-size: large;
+	text-align: center;
+	margin-left: -85px;
+}
+
+body > div.dom{
+	margin-left: 20%;
+}
+
+body > div.dom > button{
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: -27px;
+    margin-left: 16px;
+    border-radius: 5px;
+}
+
+body > div.dom > button > i{
+	color: white;
+	font-size: large;
+	margin-right: 11px;
+
+}
+
+body > div.dom > button > a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+
+body > div.teg{
+	margin-left: 42%;
+	margin-top: -38px;
+}
+
+body > div.teg >button{
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: -27px;
+    margin-left: 26px;
+    border-radius: 5px;
+ }
+
+ body > div.teg > button > i{
+ 	color: white;
+	font-size: large;
+	margin-right: 11px;
+ }
+
+body > div.teg > button > a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+} 
+
+body > div.chr{
+	margin-left: 40%;
+	margin-top: -27px;
+}
+
+body > div.chr >button{
+	background: blue;
+    border: none;
+    padding: 12px;
+    width: 179px;
+    margin-top: -27px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+
+body > div.chr >button >i{
+	color: white;
+	font-size: large;
+	margin-right: 11px;
+}
+
+body > div.chr >button >a{
+   text-decoration: none;
+	color: white;
+	font-size: large;
+} 
+
+/*#swiper-wrapper-326b54e84b210cf27 > div.swiper-slide.swiper-slide-duplicate.swiper-slide-next > h1{
+	color: red;
+	margin-top: -10px;
+}
+
+#swiper-wrapper-7dcad95e44a2bcc9 > div.swiper-slide.swiper-slide-duplicate.swiper-slide-active > p{
+	color: red;
+}*/
+
+/*body > div.flex-container > div > div.swiper-wrapper > div:nth-child(1) > h1{
+	margin-top: -563px;
+    margin-bottom: 37%;
+    color: blue;
+    font-size: xxx-large;
+}
+
+body > div.flex-container > div > div.swiper-wrapper > div:nth-child(1) > p{
+	color: blue;
+	margin-top: -550px;
+    font-size: larger;
+    margin-bottom: 29%;*/
+}
+
+#swiper-wrapper-dcaedb9f7b3d4053 > div.swiper-slide.swiper-slide-duplicate.swiper-slide-active > p{
+	color: red;
+}
